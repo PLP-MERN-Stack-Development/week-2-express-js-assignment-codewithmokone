@@ -1,5 +1,7 @@
+require('dotenv').config()
+
 // apiKeyAuth.js
-const API_KEY = '12345';
+const API_KEY = process.env.USER_PASS;
 
 const apiKeyAuth = (req, res, next) => {
     const clientApiKey = req.headers['x-api-key'];
