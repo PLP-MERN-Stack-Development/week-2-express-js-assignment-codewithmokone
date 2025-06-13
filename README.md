@@ -49,5 +49,4 @@ npm start
 
 ### 🧪 Testing
 You can test this API using:
-
-Postman
+- Postman
